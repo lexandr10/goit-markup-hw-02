@@ -92,25 +92,7 @@ button {
 }
 /* =============HERO============= /*/
 /* =============Work process============= */
-.h2-title-workprocess {
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  text-align: center;
-  color: var(--heading-color);
-}
-.h3-title-workprocess {
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-  color: var(--heading-color);
-  text-align: left;
-}
+
 .main-text {
   font-size: 16px;
   line-height: 1.5;
@@ -136,7 +118,7 @@ button {
 .item-ourteam {
   background-color: var(--white-text);
 }
-.h3-title-ourteam {
+.h3-title {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -180,7 +162,7 @@ button {
   color: var(--white-text);
 }
 .btn-list-portfolio {
-  font-family: "Roboto", sans-serif
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -195,14 +177,7 @@ button {
   color: var(--white-text);
   background-color: var(--hover-color);
 }
-.h2-title-portfolio {
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-  color: var(--heading-color);
-}
+
 .text-portfolio {
   font-size: 16px;
   line-height: 1.5;
