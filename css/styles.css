@@ -9,6 +9,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--main-text);
+  background-color: var(--white-text);
 }
 .list {
   list-style-type: none;
@@ -21,17 +23,17 @@ button {
 }
 /* =============HEADER============= */
 .main-logo {
-  color: var(--heading-color);
+  color: var(--acent-color);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 .logo-text-color {
-  color: var(--acent-color);
+  color: var(--heading-color);
 }
 .menu-link {
   font-size: 16px;
@@ -44,6 +46,9 @@ button {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--hover-color);
+}
+.main-contact {
+  font-style: normal;
 }
 .link-contact {
   font-size: 16px;
@@ -72,10 +77,31 @@ button {
   color: var(--white-text);
 }
 .main-btn-hero {
+  font-family: 'Roboto', sans-serif;
   background-color: var(--acent-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: var(--white-text);
+}
+.main-btn-hero:hover,
+.main-btn-hero:focus {
+  background-color: var(--hover-color);
 }
 /* =============HERO============= /*/
 /* =============Work process============= */
+.h2-title-workprocess {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--heading-color);
+}
 .h3-title-workprocess {
   font-size: 20px;
   font-style: normal;
@@ -89,7 +115,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--main-text);
 }
 /* =============Work process============= /*/
 /* =============What are we doing ============= */
@@ -104,45 +129,14 @@ button {
   color: var(--heading-color);
 }
 /* =============What are we doing ============= /*/
-/* =============FOOTER ============= */
-.main-text-footer {
-  color: var(--light-color);
+/* =============Our team ============= */
+.block-ourteam {
+  background-color: var(--light-color);
 }
-.page-footer {
-  background-color: var(--heading-color);
+.item-ourteam {
+  background-color: var(--white-text);
 }
-.logo-footer {
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.16; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  color: var(--light-color);
-}
-.logo-color-footer {
-  color: var(--acent-color);
-}
-/* =============FOOTER =============/ */
-/* =============PORTFOLIO ============= */
-.btn-list-works {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.64px;
-  text-align: center;
-  color: var(--acent-color);
-  background-color: var(--acent-white-color);
-  border: 1px solid var(--light-color);
-}
-.btn-list-works:hover,
-.btn-list-works:focus {
-  color: var(--white-text);
-  background-color: var(--acent-color);
-}
-.title-list-portfolio {
+.h3-title-ourteam {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -150,7 +144,66 @@ button {
   letter-spacing: 0.4px;
   color: var(--heading-color);
 }
-.text-list-portfolio {
+/* =============Our team ============= /*/
+/* =============FOOTER ============= */
+.main-text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--light-color);
+}
+.page-footer {
+  background-color: var(--heading-color);
+}
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--acent-color);
+}
+.logo-color-footer {
+  color: var(--light-color);
+}
+/* =============FOOTER =============/ */
+/* =============PORTFOLIO ============= */
+.h1-title-portfolio {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  text-align: center;
+  color: var(--white-text);
+}
+.btn-list-portfolio {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  text-align: center;
+  color: var(--acent-color);
+  background-color: var(--light-color);
+}
+.btn-list-portfolio:hover,
+.btn-list-portfolio:focus {
+  color: var(--white-text);
+  background-color: var(--hover-color);
+}
+.h2-title-portfolio {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--heading-color);
+}
+.text-portfolio {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
