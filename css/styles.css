@@ -67,7 +67,7 @@ button {
 .block-hero {
   background-color: var(--heading-color);
 }
-.h1-title {
+.h-one-title {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -100,7 +100,7 @@ button {
 }
 /* =============Work process============= /*/
 /* =============What are we doing ============= */
-.h2-title {
+.h-two-title {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -118,7 +118,7 @@ button {
 .item-ourteam {
   background-color: var(--white-text);
 }
-.h3-title {
+.h-three-title {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
